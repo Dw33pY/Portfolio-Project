@@ -19,3 +19,43 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navigation button styles */
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: rgba(0, 0, 0, 0.5); /* Dark background */
+  color: white; /* White text */
+  padding: 10px; /* Add padding */
+  border-radius: 50%; /* Round buttons */
+}
+
+/* Hover effect for navigation buttons */
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: rgba(0, 0, 0, 0.7); /* Darker background on hover */
+}
+
+/* Pagination dots */
+.swiper-pagination {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.swiper-pagination-bullet {
+  background-color: rgba(255, 255, 255, 0.7); /* Light color for bullets */
+  width: 12px; /* Size of the bullet */
+  height: 12px; /* Size of the bullet */
+  border-radius: 50%; /* Circular bullet */
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #fff; /* Active bullet color */
+}
+
+
